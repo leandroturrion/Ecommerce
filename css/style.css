@@ -206,3 +206,84 @@ small{
     font-size: 16px;
 
 }
+
+
+/* marcas ____________*/
+
+.brands{
+    margin:  100px auto;
+
+}
+.col-5{
+    width: 160px;
+}
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col-5 img:hover{
+    filter: grayscale(0);
+}
+
+/*_____________foooterrrrrrrrr _______*/
+
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+
+}
+.footer-col-1{
+    flex-basis: 30%;
+
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+    
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+
+}
+ul{
+    list-style-type: none;
+
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+
+}
+.fa-whatsapp:before{
+    color: green;
+}
+.fa-facebook:before{
+    color: rgb(14, 18, 226);
+    font-size: 20px;
+}
+.fa-twitter:before{
+    color: rgb(0, 217, 255);
+}
