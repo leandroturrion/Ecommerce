@@ -464,6 +464,7 @@ th:last-child{
     padding: 20px 0;
     margin: auto;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    overflow: hidden;
 }
 
 .form-container span{
